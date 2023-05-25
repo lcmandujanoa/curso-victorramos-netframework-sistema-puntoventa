@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{73DD5B55-60F0-4F53-8487-D42E73907ACB}</ProjectGuid>
+    <ProjectGuid>{0DA50083-3E88-462A-B0AF-764C9D3A5C71}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sol_PuntoVenta.Datos</RootNamespace>
-    <AssemblyName>Sol_PuntoVenta.Datos</AssemblyName>
+    <RootNamespace>Sol_PuntoVenta.Entidades</RootNamespace>
+    <AssemblyName>Sol_PuntoVenta.Entidades</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -41,15 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conexion.cs" />
-    <Compile Include="D_Punto_Venta.cs" />
+    <Compile Include="E_Punto_Venta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Sol_PuntoVenta.Entidades\Sol_PuntoVenta.Entidades.csproj">
-      <Project>{0da50083-3e88-462a-b0af-764c9d3a5c71}</Project>
-      <Name>Sol_PuntoVenta.Entidades</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
